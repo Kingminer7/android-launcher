@@ -61,6 +61,18 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+              <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <category android:name="android.intent.category.OPENABLE" />
+        
+        <!-- Specify the MIME type -->
+        <data android:mimeType="application/octet-stream" />
+        
+        <!-- Specify the custom file extension pattern -->
+        <data android:pathPattern=".*\\.geode" />
+    </intent-filter>
         </activity>
         <activity
             android:name=".GeometryDashActivity"
