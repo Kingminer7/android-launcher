@@ -1,4 +1,4 @@
-package com.geode.launcher.ui.theme
+package com.geode.lite.ui.theme
 
 import android.app.Activity
 import android.os.Build

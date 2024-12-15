@@ -1,4 +1,4 @@
-package com.geode.launcher.activityresult
+package com.geode.lite.activityresult
 
 import android.app.Activity
 import android.content.Context

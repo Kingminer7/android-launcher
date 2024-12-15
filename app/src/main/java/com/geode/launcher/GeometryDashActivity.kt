@@ -1,4 +1,4 @@
-package com.geode.launcher
+package com.geode.lite
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -21,14 +21,14 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.customRobTop.BaseRobTopActivity
 import com.customRobTop.JniToCpp
-import com.geode.launcher.main.LaunchNotification
-import com.geode.launcher.utils.Constants
-import com.geode.launcher.utils.ConstrainedFrameLayout
-import com.geode.launcher.utils.DownloadUtils
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.GeodeUtils
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import com.geode.lite.main.LaunchNotification
+import com.geode.lite.utils.Constants
+import com.geode.lite.utils.ConstrainedFrameLayout
+import com.geode.lite.utils.DownloadUtils
+import com.geode.lite.utils.GamePackageUtils
+import com.geode.lite.utils.GeodeUtils
+import com.geode.lite.utils.LaunchUtils
+import com.geode.lite.utils.PreferenceUtils
 import org.cocos2dx.lib.Cocos2dxEditText
 import org.cocos2dx.lib.Cocos2dxGLSurfaceView
 import org.cocos2dx.lib.Cocos2dxHelper

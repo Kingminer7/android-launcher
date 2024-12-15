@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package com.geode.lite.preferences
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -34,12 +34,12 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.utils.LabelledText
-import com.geode.launcher.utils.PreferenceUtils
+import com.geode.lite.R
+import com.geode.lite.ui.theme.GeodeLauncherTheme
+import com.geode.lite.ui.theme.LocalTheme
+import com.geode.lite.ui.theme.Theme
+import com.geode.lite.utils.LabelledText
+import com.geode.lite.utils.PreferenceUtils
 
 class DeveloperSettingsActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

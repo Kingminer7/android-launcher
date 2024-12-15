@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package com.geode.lite.main
 
 import android.content.Context
 import android.content.Intent
@@ -38,15 +38,15 @@ import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.GeometryDashActivity
-import com.geode.launcher.R
-import com.geode.launcher.preferences.SettingsActivity
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.utils.Constants
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.GeodeUtils
-import com.geode.launcher.utils.PreferenceUtils
-import com.geode.launcher.utils.useCountdownTimer
+import com.geode.lite.GeometryDashActivity
+import com.geode.lite.R
+import com.geode.lite.preferences.SettingsActivity
+import com.geode.lite.ui.theme.Typography
+import com.geode.lite.utils.Constants
+import com.geode.lite.utils.GamePackageUtils
+import com.geode.lite.utils.GeodeUtils
+import com.geode.lite.utils.PreferenceUtils
+import com.geode.lite.utils.useCountdownTimer
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collectLatest
 

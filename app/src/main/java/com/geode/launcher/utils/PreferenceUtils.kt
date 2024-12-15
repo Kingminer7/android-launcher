@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package com.geode.lite.utils
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -13,7 +13,7 @@ import androidx.core.content.edit
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
-import com.geode.launcher.BuildConfig
+import com.geode.lite.BuildConfig
 
 /**
  * Extension object for SharedPreferences to add better key safety and default values.

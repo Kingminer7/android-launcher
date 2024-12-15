@@ -1,6 +1,6 @@
-package com.geode.launcher.updater
+package com.geode.lite.updater
 
-import com.geode.launcher.utils.LaunchUtils
+import com.geode.lite.utils.LaunchUtils
 import kotlinx.datetime.Instant
 import kotlinx.serialization.Serializable
 

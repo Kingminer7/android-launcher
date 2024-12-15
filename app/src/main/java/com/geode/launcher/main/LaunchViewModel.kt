@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package com.geode.lite.main
 
 import android.app.Application
 import android.os.CountDownTimer
@@ -7,11 +7,11 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.geode.launcher.updater.ReleaseManager
-import com.geode.launcher.utils.Constants
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import com.geode.lite.updater.ReleaseManager
+import com.geode.lite.utils.Constants
+import com.geode.lite.utils.GamePackageUtils
+import com.geode.lite.utils.LaunchUtils
+import com.geode.lite.utils.PreferenceUtils
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.map

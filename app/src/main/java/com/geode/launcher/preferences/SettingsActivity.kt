@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package com.geode.lite.preferences
 
 import android.app.UiModeManager
 import android.content.ActivityNotFoundException
@@ -43,18 +43,18 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.R
-import com.geode.launcher.UserDirectoryProvider
-import com.geode.launcher.updater.ReleaseViewModel
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.utils.Constants
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import com.geode.lite.BuildConfig
+import com.geode.lite.R
+import com.geode.lite.UserDirectoryProvider
+import com.geode.lite.updater.ReleaseViewModel
+import com.geode.lite.ui.theme.GeodeLauncherTheme
+import com.geode.lite.ui.theme.LocalTheme
+import com.geode.lite.ui.theme.Theme
+import com.geode.lite.ui.theme.Typography
+import com.geode.lite.utils.Constants
+import com.geode.lite.utils.GamePackageUtils
+import com.geode.lite.utils.LaunchUtils
+import com.geode.lite.utils.PreferenceUtils
 import java.net.ConnectException
 import java.net.UnknownHostException
 

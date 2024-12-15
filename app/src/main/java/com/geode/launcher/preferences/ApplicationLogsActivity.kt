@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package com.geode.lite.preferences
 
 import android.content.Intent
 import android.os.Bundle
@@ -62,15 +62,15 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.geode.launcher.R
-import com.geode.launcher.log.LogLine
-import com.geode.launcher.log.LogPriority
-import com.geode.launcher.log.LogViewModel
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.utils.PreferenceUtils
+import com.geode.lite.R
+import com.geode.lite.log.LogLine
+import com.geode.lite.log.LogPriority
+import com.geode.lite.log.LogViewModel
+import com.geode.lite.ui.theme.GeodeLauncherTheme
+import com.geode.lite.ui.theme.LocalTheme
+import com.geode.lite.ui.theme.Theme
+import com.geode.lite.ui.theme.Typography
+import com.geode.lite.utils.PreferenceUtils
 import kotlinx.coroutines.launch
 
 class ApplicationLogsActivity : ComponentActivity() {

@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package com.geode.lite.utils
 
 import android.annotation.SuppressLint
 import android.content.Context

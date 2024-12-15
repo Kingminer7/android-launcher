@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package com.geode.lite.main
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -25,8 +25,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.utils.Constants
+import com.geode.lite.R
+import com.geode.lite.utils.Constants
 
 fun onDownloadGame(context: Context) {
     val appUrl = "https://play.google.com/store/apps/details?id=${Constants.PACKAGE_NAME}"

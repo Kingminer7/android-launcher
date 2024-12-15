@@ -1,4 +1,4 @@
-package com.geode.launcher
+package com.geode.lite
 
 import android.content.Intent
 import android.os.Bundle
@@ -30,15 +30,15 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.geode.launcher.main.*
-import com.geode.launcher.updater.ReleaseViewModel
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.utils.Constants
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
-import com.geode.launcher.utils.GamePackageUtils
+import com.geode.lite.main.*
+import com.geode.lite.updater.ReleaseViewModel
+import com.geode.lite.ui.theme.GeodeLauncherTheme
+import com.geode.lite.ui.theme.LocalTheme
+import com.geode.lite.ui.theme.Theme
+import com.geode.lite.utils.Constants
+import com.geode.lite.utils.LaunchUtils
+import com.geode.lite.utils.PreferenceUtils
+import com.geode.lite.utils.GamePackageUtils
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.geode.launcher.log
+package com.geode.lite.log
 
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant

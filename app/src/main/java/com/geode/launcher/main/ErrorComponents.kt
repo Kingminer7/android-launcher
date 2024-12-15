@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package com.geode.lite.main
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -49,14 +49,14 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withLink
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.preferences.ApplicationLogsActivity
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.R
-import com.geode.launcher.UserDirectoryProvider
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import com.geode.lite.preferences.ApplicationLogsActivity
+import com.geode.lite.BuildConfig
+import com.geode.lite.R
+import com.geode.lite.UserDirectoryProvider
+import com.geode.lite.ui.theme.Typography
+import com.geode.lite.utils.GamePackageUtils
+import com.geode.lite.utils.LaunchUtils
+import com.geode.lite.utils.PreferenceUtils
 
 data class LoadFailureInfo(
     val title: LaunchUtils.LauncherError,

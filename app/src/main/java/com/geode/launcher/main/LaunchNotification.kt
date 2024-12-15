@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package com.geode.lite.main
 
 import android.content.Context
 import androidx.compose.animation.AnimatedVisibility
@@ -32,12 +32,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.updater.ReleaseManager
-import com.geode.launcher.utils.PreferenceUtils
+import com.geode.lite.R
+import com.geode.lite.ui.theme.GeodeLauncherTheme
+import com.geode.lite.ui.theme.LocalTheme
+import com.geode.lite.ui.theme.Theme
+import com.geode.lite.updater.ReleaseManager
+import com.geode.lite.utils.PreferenceUtils
 import kotlinx.coroutines.delay
 
 enum class LaunchNotificationType {

@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package com.geode.lite.main
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -33,12 +33,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.UserDirectoryProvider
-import com.geode.launcher.updater.ReleaseManager
-import com.geode.launcher.updater.ReleaseViewModel
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import com.geode.lite.R
+import com.geode.lite.UserDirectoryProvider
+import com.geode.lite.updater.ReleaseManager
+import com.geode.lite.updater.ReleaseViewModel
+import com.geode.lite.utils.LaunchUtils
+import com.geode.lite.utils.PreferenceUtils
 import java.io.File
 import java.net.ConnectException
 import java.net.UnknownHostException

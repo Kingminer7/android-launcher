@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package com.geode.lite.utils
 
 import androidx.compose.runtime.*
 import androidx.lifecycle.compose.LocalLifecycleOwner

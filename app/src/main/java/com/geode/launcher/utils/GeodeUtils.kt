@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package com.geode.lite.utils
 
 import android.Manifest
 import android.content.ActivityNotFoundException
@@ -20,12 +20,12 @@ import androidx.annotation.Keep
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.documentfile.provider.DocumentFile
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.R
-import com.geode.launcher.UserDirectoryProvider
-import com.geode.launcher.activityresult.GeodeOpenFileActivityResult
-import com.geode.launcher.activityresult.GeodeOpenFilesActivityResult
-import com.geode.launcher.activityresult.GeodeSaveFileActivityResult
+import com.geode.lite.BuildConfig
+import com.geode.lite.R
+import com.geode.lite.UserDirectoryProvider
+import com.geode.lite.activityresult.GeodeOpenFileActivityResult
+import com.geode.lite.activityresult.GeodeOpenFilesActivityResult
+import com.geode.lite.activityresult.GeodeSaveFileActivityResult
 import java.io.File
 import java.lang.ref.WeakReference
 import kotlin.system.exitProcess
@@ -389,7 +389,7 @@ object GeodeUtils {
     }
 
     fun isGeodeUri(uri: Uri): Boolean {
-        return "com.geode.launcher.user" == uri.authority
+        return "com.geode.lite.user" == uri.authority
     }
 
     private const val INTERNAL_PERMISSION_PREFIX = "geode.permission_internal"
