@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <queries>
-        <package android:name="com.robtopx.geometryjump" />
+        <package android:name="com.robtopx.geometrydashmeltdown" />
     </queries>
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -205,7 +205,7 @@
 
         <provider
             android:name=".UserDirectoryProvider"
-            android:authorities="com.geode.launcher.user"
+            android:authorities="com.geode.mdlauncher.user"
             android:exported="true"
             android:grantUriPermissions="true"
             android:permission="android.permission.MANAGE_DOCUMENTS">
@@ -215,7 +215,7 @@
         </provider>
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.geode.launcher.fileprovider"
+            android:authorities="com.geode.mdlauncher.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

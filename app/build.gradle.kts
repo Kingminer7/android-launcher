@@ -19,7 +19,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.geode.launcher"
+        applicationId = "com.geode.mdlauncher"
         minSdk = 23
         targetSdk = 35
         versionCode = 22
@@ -90,7 +90,7 @@ android {
             path = file("src/main/cpp/CMakeLists.txt")
         }
     }
-    namespace = "com.geode.launcher"
+    namespace = "com.geode.mdlauncher"
     ndkVersion = "29.0.14206865"
 }
 
